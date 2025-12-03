@@ -1,12 +1,15 @@
-// import React from 'react'
+import React from 'react'
+import Navbar from './Navbar'
+import Page1Content from './Page1Content'
 
-// const Page1 = () => {
-//   return (
-//     <div className='h-screen bg-amber-500 text-5xl text-center'>
-//         hello vijay
+const Page1 = () => {
+  return (
+    <div className='h-screen w-full text-5xl text-center'>
+        <Navbar/>
+        <Page1Content/>
       
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
-// export default Page1
+export default Page1
